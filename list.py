@@ -1,0 +1,16 @@
+my_string=[1,2,3]
+my_string=[1,655,232,23.3]
+another_list=[23,34,43]
+new_list=['one','two','three']
+print(len(my_string))
+print(my_string+another_list)
+new_list.append('four')
+print(new_list)
+print(new_list.pop(2))
+print(new_list)
+print(my_string.sort())
+print(my_string)
+num_string=my_string
+print(num_string)
+num_string.reverse()
+print(num_string)
